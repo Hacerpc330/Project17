@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.top_1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(43, 194, 68);
+}
+.top_1 > ul{
+    display: flex;
+}
+.top_1 ul li{
+    display: inline-block;
+    background-color: brown;
+}
+.top_1 a{
+    text-decoration: none;
+    color: rgb(0, 255, 200);
+    font-size: 20px;
+    display: block;
+    line-height: 60px;
+    width: 172px;
+    transition: 0.2s;
+    text-align: center;
+}
+.top_1 a:hover{
+    background-color: navajowhite;
+    color: navy;
+    border: 0.5px solid black ;
+}
+.top_1 ul ul{
+    display: none;
+    position: absolute;
+}
+.top_1 ul li:hover > ul{
+    display: block;    
+
+}
+.top_1 ul ul li{
+    display: block;
+    position: relative;
+}
+.top_1 ul ul ul li{
+    position: relative;
+    left: 150px;
+    bottom: 60px;
+}
